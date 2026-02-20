@@ -1,0 +1,63 @@
+.cases {
+    background-color: var(--color-background);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-xl);
+}
+
+.card {
+    background: var(--color-surface);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.title {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-bottom: var(--space-sm);
+}
+
+.desc {
+    color: var(--color-text-main);
+    margin-bottom: var(--space-lg);
+    flex-grow: 1;
+}
+
+.metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: auto;
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--color-border);
+}
+
+.metric {
+    display: flex;
+    flex-direction: column;
+}
+
+.metricValue {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.metricLabel {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}

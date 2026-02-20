@@ -1,0 +1,76 @@
+{
+  "Hero": {
+    "title": "Google Ads Expert for Your Business",
+    "subtitle": "Get more leads, sales, and a higher ROI with professional Google Ads management.",
+    "cta_primary": "Get a Quote",
+    "cta_secondary": "My Services"
+  },
+  "Services": {
+    "section_title": "My Services",
+    "setup": {
+      "title": "Setup From Scratch",
+      "desc": "Creation of effective campaigns to attract new clients from day one."
+    },
+    "audit": {
+      "title": "Account Audit",
+      "desc": "In-depth analysis of current ad campaigns and growth opportunities."
+    },
+    "management": {
+      "title": "Campaign Management",
+      "desc": "Regular optimization and budget scaling to hit your target metrics."
+    },
+    "local": {
+      "title": "Google Maps Ads",
+      "desc": "Attracting potential clients dynamically mapping to your physical business radius."
+    }
+  },
+  "Cases": {
+    "section_title": "Case Studies",
+    "case_1": {
+      "title": "Freight Transport in Kyiv",
+      "desc": "Setup from scratch. Leads started coming in the first week. Connected tagmanager, GA, ringostat. Client got max promo code of 30,000 UAH.",
+      "metric1_val": "137 UAH",
+      "metric1_label": "Avg CPA",
+      "metric2_val": "2000 UAH",
+      "metric2_label": "Avg Order Value"
+    },
+    "case_2": {
+      "title": "MRI Clinic in Kyiv",
+      "desc": "Audit, setup of analytics and call tracking. Account restructuring. Working together into the second year.",
+      "metric1_val": "507 UAH",
+      "metric1_label": "Cost per conversion",
+      "metric2_val": "120,000 UAH",
+      "metric2_label": "Monthly Budget"
+    },
+    "case_3": {
+      "title": "Flower Shop in Odesa",
+      "desc": "Google Maps Ads (2km radius). Generated steady visitor map-actions. Client received a 10,000 UAH GA promo code.",
+      "metric1_val": "23 UAH",
+      "metric1_label": "Cost per action",
+      "metric2_val": "1000 UAH",
+      "metric2_label": "Daily Budget"
+    },
+    "case_4": {
+      "title": "Nail Studio in Copenhagen",
+      "desc": "Client from Ukraine opened a salon in Denmark. After an audit and proper setup, started getting steady leads.",
+      "metric1_val": "€5.3",
+      "metric1_label": "Cost per Lead",
+      "metric2_val": "€40",
+      "metric2_label": "Avg Check"
+    }
+  },
+  "Contacts": {
+    "section_title": "Contact Me",
+    "title": "Ready to increase your sales?",
+    "desc": "Leave a request or write to me in a convenient messenger. I will contact you to discuss your project.",
+    "form": {
+      "name": "Your name",
+      "name_placeholder": "Enter your name",
+      "phone": "Phone number",
+      "phone_placeholder": "+1 (000) 000-0000",
+      "message": "Message (optional)",
+      "message_placeholder": "Tell me briefly about your business",
+      "submit": "Get a Quote"
+    }
+  }
+}
