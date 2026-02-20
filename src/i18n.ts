@@ -3,11 +3,16 @@ import { notFound } from 'next/navigation';
 
 const locales = ['en', 'ru', 'uk'] as const;
 
-export default getRequestConfig(async ({ locale }) => {
-    if (!locale || !locales.includes(locale as typeof locales[number])) notFound();
+export default getRequestConfig(async ({ requestLocale }) => {
+    // Next.js 15 requires awaiting the locale
+    const reqLocale = await requestLocale;
+
+    if (!reqLocale || !locales.includes(reqLocale as typeof locales[number])) {
+        notFound();
+    }
 
     return {
-        locale,
-        messages: (await import(`../messages/${locale}.json`)).default
+        locale: reqLocale,
+        messages: (await import(`../messages/${reqLocale}.json`)).default
     };
 });
