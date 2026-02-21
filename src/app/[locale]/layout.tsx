@@ -46,7 +46,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
-        {process.env.NEXT_PUBLIC_GTM_ID && <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />}
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || 'GTM-PMHW3HBG'} />
       </body>
     </html>
   );
