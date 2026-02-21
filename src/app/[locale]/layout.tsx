@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
+import Script from 'next/script';
 import { GoogleTagManager } from '@next/third-parties/google';
 import '../globals.css';
 import { NextIntlClientProvider } from 'next-intl';
@@ -42,6 +43,17 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        {process.env.NEXT_PUBLIC_COOKIEBOT_ID && (
+          <Script
+            id="Cookiebot"
+            src="https://consent.cookiebot.com/uc.js"
+            data-cbid={process.env.NEXT_PUBLIC_COOKIEBOT_ID}
+            data-blockingmode="auto"
+            strategy="beforeInteractive"
+          />
+        )}
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <NextIntlClientProvider messages={messages}>
           {children}
