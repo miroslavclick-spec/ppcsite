@@ -70,7 +70,10 @@
       "phone_placeholder": "+1 (000) 000-0000",
       "message": "Message (optional)",
       "message_placeholder": "Tell me briefly about your business",
-      "submit": "Get a Quote"
+      "submit": "Submit Request",
+      "sending": "Sending...",
+      "success": "Request sent successfully! I will contact you shortly.",
+      "error": "An error occurred while sending. Please try again later or text me in the messenger."
     }
   }
 }

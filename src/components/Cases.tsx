@@ -1,14 +1,15 @@
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 import styles from './Cases.module.css';
 
 export default function Cases() {
     const t = useTranslations('Cases');
 
     const cases = [
-        { key: 'case_1', image: '/photo1.jpeg' },
-        { key: 'case_2', image: '/photo2.jpeg' },
-        { key: 'case_3', image: '/photo3.jpeg' },
-        { key: 'case_4', image: '/photo4.jpeg' },
+        { key: 'case_1', image: '/фото1.jpeg' },
+        { key: 'case_2', image: '/фото2.jpeg' },
+        { key: 'case_3', image: '/фото3.jpeg' },
+        { key: 'case_4', image: '/фото4.jpeg' },
     ];
 
     return (
@@ -19,6 +20,15 @@ export default function Cases() {
                 <div className={styles.grid}>
                     {cases.map((c) => (
                         <div key={c.key} className={styles.card}>
+                            <div className={styles.imageContainer}>
+                                <Image
+                                    src={c.image}
+                                    alt={t(`${c.key}.title`)}
+                                    fill
+                                    className={styles.image}
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                />
+                            </div>
                             <div className={styles.content}>
                                 <h3 className={styles.title}>{t(`${c.key}.title`)}</h3>
                                 <p className={styles.desc}>{t(`${c.key}.desc`)}</p>
