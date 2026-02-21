@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { sendGTMEvent } from '@next/third-parties/google';
 import styles from './Contacts.module.css';
 
 export default function Contacts() {
@@ -30,6 +31,7 @@ export default function Contacts() {
             if (response.ok) {
                 setStatus('success');
                 (e.target as HTMLFormElement).reset();
+                sendGTMEvent({ event: 'submit_form' });
             } else {
                 setStatus('error');
             }
