@@ -33,7 +33,7 @@ export default async function RootLayout({
   const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as 'en' | 'ru' | 'uk')) {
+  if (!routing.locales.includes(locale as 'en' | 'ru' | 'uk' | 'es')) {
     notFound();
   }
 

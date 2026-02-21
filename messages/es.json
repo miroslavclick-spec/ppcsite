@@ -1,0 +1,79 @@
+{
+    "Hero": {
+        "title": "Experto en Google Ads para su negocio",
+        "subtitle": "Obtenga más clientes potenciales, ventas y un mayor ROI con la gestión profesional de Google Ads.",
+        "cta_primary": "Obtener cotización",
+        "cta_secondary": "Mis servicios"
+    },
+    "Services": {
+        "section_title": "Mis servicios",
+        "setup": {
+            "title": "Configuración desde cero",
+            "desc": "Creación de campañas efectivas para atraer nuevos clientes desde el primer día."
+        },
+        "audit": {
+            "title": "Auditoría de cuenta",
+            "desc": "Análisis profundo de las campañas publicitarias actuales y oportunidades de crecimiento."
+        },
+        "management": {
+            "title": "Gestión de campañas",
+            "desc": "Optimización regular y escalamiento del presupuesto para alcanzar sus métricas objetivo."
+        },
+        "local": {
+            "title": "Anuncios en Google Maps",
+            "desc": "Atracción de clientes potenciales mapeando dinámicamente el radio físico de su negocio."
+        }
+    },
+    "Cases": {
+        "section_title": "Casos de éxito",
+        "case_1": {
+            "title": "Transporte de carga en Kiev",
+            "desc": "Configuración desde cero. Los clientes empezaron a llegar en la primera semana. Conectamos Tag Manager, GA, Ringostat. El cliente obtuvo un código promocional máximo de 30,000 UAH.",
+            "metric1_val": "137 UAH",
+            "metric1_label": "CPA promedio",
+            "metric2_val": "2000 UAH",
+            "metric2_label": "Valor promedio del pedido"
+        },
+        "case_2": {
+            "title": "Clínica de resonancia magnética en Kiev",
+            "desc": "Auditoría, configuración de análisis y seguimiento de llamadas. Reestructuración de la cuenta. Trabajando juntos por segundo año consecutivo.",
+            "metric1_val": "507 UAH",
+            "metric1_label": "Costo por conversión",
+            "metric2_val": "120,000 UAH",
+            "metric2_label": "Presupuesto mensual"
+        },
+        "case_3": {
+            "title": "Florería en Odesa",
+            "desc": "Anuncios en Google Maps (radio de 2 km). Generó acciones constantes en el mapa por parte de los visitantes. El cliente recibió un código promocional de GA de 10,000 UAH.",
+            "metric1_val": "23 UAH",
+            "metric1_label": "Costo por acción",
+            "metric2_val": "1000 UAH",
+            "metric2_label": "Presupuesto diario"
+        },
+        "case_4": {
+            "title": "Estudio de uñas en Copenhague",
+            "desc": "Cliente de Ucrania abrió un salón en Dinamarca. Después de una auditoría y una configuración adecuada, comenzó a obtener clientes potenciales constantes.",
+            "metric1_val": "€5.3",
+            "metric1_label": "Costo por cliente potencial",
+            "metric2_val": "€40",
+            "metric2_label": "Cheque promedio"
+        }
+    },
+    "Contacts": {
+        "section_title": "Contáctame",
+        "title": "¿Listo para aumentar sus ventas?",
+        "desc": "Deje una solicitud o escríbame en un mensajero conveniente. Me pondré en contacto con usted para discutir su proyecto.",
+        "form": {
+            "name": "Su nombre",
+            "name_placeholder": "Ingrese su nombre",
+            "phone": "Número de teléfono",
+            "phone_placeholder": "+1 (000) 000-0000",
+            "message": "Mensaje (opcional)",
+            "message_placeholder": "Hábleme brevemente sobre su negocio",
+            "submit": "Enviar solicitud",
+            "sending": "Enviando...",
+            "success": "¡Solicitud enviada con éxito! Me pondré en contacto con usted en breve.",
+            "error": "Se produjo un error durante el envío. Inténtelo de nuevo más tarde o escríbame en el mensajero."
+        }
+    }
+}

@@ -1,7 +1,7 @@
 import { getRequestConfig } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
-const locales = ['en', 'ru', 'uk'] as const;
+const locales = ['en', 'ru', 'uk', 'es'] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {
     // Next.js 15 requires awaiting the locale
