@@ -1,22 +1,32 @@
 :root {
   /* Colors - "Friendly Expert" Vibe */
-  --color-primary: #2B5B84; /* Deep, trustworthy blue */
-  --color-primary-light: #528BBA; /* Soft, welcoming blue */
-  --color-accent: #65A882; /* Soft, positive green for success/growth */
-  --color-accent-light: #E9F3ED; /* Very light green for backgrounds */
-  
-  --color-background: #FAFAFA; /* Off-white, soft background */
-  --color-surface: #FFFFFF; /* Pure white for cards */
-  --color-surface-hover: #F2F5F8; /* Light blue-grey for hover states */
-  
-  --color-text-main: #2A3135; /* Dark slate for high readability */
-  --color-text-muted: #5F6B73; /* Medium grey for secondary text */
-  --color-border: #E0E5E9; /* Soft border color */
+  --color-primary: #2B5B84;
+  /* Deep, trustworthy blue */
+  --color-primary-light: #528BBA;
+  /* Soft, welcoming blue */
+  --color-accent: #65A882;
+  /* Soft, positive green for success/growth */
+  --color-accent-light: #E9F3ED;
+  /* Very light green for backgrounds */
+
+  --color-background: #FAFAFA;
+  /* Off-white, soft background */
+  --color-surface: #FFFFFF;
+  /* Pure white for cards */
+  --color-surface-hover: #F2F5F8;
+  /* Light blue-grey for hover states */
+
+  --color-text-main: #2A3135;
+  /* Dark slate for high readability */
+  --color-text-muted: #5F6B73;
+  /* Medium grey for secondary text */
+  --color-border: #E0E5E9;
+  /* Soft border color */
 
   /* Typography */
   --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  
+
   /* Spacing */
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
@@ -25,7 +35,7 @@
   --space-xl: 2rem;
   --space-2xl: 3rem;
   --space-3xl: 5rem;
-  
+
   /* Border Radius */
   --radius-sm: 4px;
   --radius-md: 8px;
@@ -37,7 +47,7 @@
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
-  
+
   /* Transitions */
   --transition-normal: 0.2s ease-in-out;
 }
@@ -48,11 +58,11 @@
     --color-background: #15181A;
     --color-surface: #1E2326;
     --color-surface-hover: #262D31;
-    
+
     --color-text-main: #F0F2F4;
     --color-text-muted: #A1ACB3;
     --color-border: #2E363A;
-    
+
     --color-primary-light: #4A81AD;
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
@@ -89,4 +99,60 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* Base Global Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.section {
+  padding: var(--space-3xl) 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: var(--space-2xl);
+  color: var(--color-primary);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  transform: translateY(-2px);
 }

@@ -20,15 +20,6 @@ export default function Cases() {
                 <div className={styles.grid}>
                     {cases.map((c) => (
                         <div key={c.key} className={styles.card}>
-                            <div className={styles.imageContainer}>
-                                <Image
-                                    src={c.image}
-                                    alt={t(`${c.key}.title`)}
-                                    fill
-                                    className={styles.image}
-                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                />
-                            </div>
                             <div className={styles.content}>
                                 <h3 className={styles.title}>{t(`${c.key}.title`)}</h3>
                                 <p className={styles.desc}>{t(`${c.key}.desc`)}</p>
@@ -42,6 +33,15 @@ export default function Cases() {
                                         <span className={styles.metricLabel}>{t(`${c.key}.metric2_label`)}</span>
                                     </div>
                                 </div>
+                            </div>
+                            <div className={styles.imageContainer}>
+                                <Image
+                                    src={c.image}
+                                    alt={t(`${c.key}.title`)}
+                                    fill
+                                    className={styles.image}
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                />
                             </div>
                         </div>
                     ))}
