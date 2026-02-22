@@ -14,7 +14,7 @@ export default function Hero() {
                         <a href="#contacts" className="btn btn-primary">
                             {t('cta_primary')}
                         </a>
-                        <a href="#services" className="btn btn-secondary">
+                        <a href="#cases" className="btn btn-secondary">
                             {t('cta_secondary')}
                         </a>
                     </div>
