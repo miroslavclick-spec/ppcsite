@@ -1,6 +1,7 @@
 :root {
   /* Colors - "Friendly Expert" Vibe */
   --color-primary: #2B5B84;
+  --color-on-primary: #FFFFFF;
   /* Deep, trustworthy blue */
   --color-primary-light: #528BBA;
   /* Soft, welcoming blue */
@@ -63,7 +64,11 @@
     --color-text-muted: #A1ACB3;
     --color-border: #2E363A;
 
-    --color-primary-light: #4A81AD;
+    --color-primary: #60A5FA;
+    /* Bright blue for high contrast on dark bg */
+    --color-on-primary: #0F172A;
+    /* Dark text for contrast against bright blue button */
+    --color-primary-light: #93C5FD;
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
   }
@@ -136,7 +141,7 @@ a {
 
 .btn-primary {
   background-color: var(--color-primary);
-  color: var(--color-surface);
+  color: var(--color-on-primary);
 }
 
 .btn-primary:hover {
@@ -153,6 +158,6 @@ a {
 
 .btn-secondary:hover {
   background-color: var(--color-primary);
-  color: var(--color-surface);
+  color: var(--color-on-primary);
   transform: translateY(-2px);
 }
