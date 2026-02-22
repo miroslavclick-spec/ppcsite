@@ -59,6 +59,29 @@
             "metric2_label": "Cheque promedio"
         }
     },
+    "Faq": {
+        "section_title": "Preguntas frecuentes (FAQ)",
+        "q1": {
+            "question": "¿Ofrecen garantías sobre la cantidad de clientes potenciales o ventas?",
+            "answer": "Soy honesto con mis clientes: ningún profesional puede garantizar una cantidad exacta de clientes potenciales porque las conversiones están influenciadas por su producto, el precio, su equipo de ventas y la competencia. Sin embargo, le garantizo que recibirá tráfico altamente calificado al mejor precio posible, sin desperdiciar su presupuesto en bots o búsquedas irrelevantes."
+        },
+        "q2": {
+            "question": "¿Cuál es el presupuesto publicitario recomendado para empezar?",
+            "answer": "Esto depende en gran medida de su nicho y región. En promedio, para probar adecuadamente las hipótesis y permitir que los algoritmos de Google aprendan, se necesita un presupuesto de 20-30 $ al día. Si el presupuesto es demasiado pequeño, las campañas simplemente no tendrán tracción."
+        },
+        "q3": {
+            "question": "¿En cuánto tiempo conseguiré mis primeros clientes?",
+            "answer": "Con los anuncios de búsqueda, puede obtener sus primeros clics y clientes potenciales en 24-48 horas después de pasar la moderación. Sin embargo, \"entrenar\" por completo campañas inteligentes como Performance Max suele llevar entre 14 y 30 días."
+        },
+        "q4": {
+            "question": "¿También configura la analítica (GA4) o solo los anuncios?",
+            "answer": "Una publicidad de alta calidad es imposible sin una analítica precisa. Configuro todo el ecosistema desde cero: Google Analytics 4, Google Tag Manager y el seguimiento adecuado de todas las conversiones macro y micro."
+        },
+        "q5": {
+            "question": "Intenté hacer campañas de Google Ads yo mismo y no funcionó. ¿Por qué será diferente con usted?",
+            "answer": "Google Ads es muy complejo hoy en día. La configuración 'predeterminada' está diseñada para que gaste más dinero. Uso listas de palabras clave negativas, filtro estrictamente los términos de búsqueda, desactivo redes de bajo rendimiento y escribo anuncios atractivos basados en los problemas reales de sus clientes."
+        }
+    },
     "Contacts": {
         "section_title": "Contáctame",
         "title": "¿Listo para aumentar sus ventas?",

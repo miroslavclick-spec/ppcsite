@@ -59,6 +59,29 @@
       "metric2_label": "Avg Check"
     }
   },
+  "Faq": {
+    "section_title": "Frequently Asked Questions",
+    "q1": {
+      "question": "Do you offer guarantees on the number of leads or sales?",
+      "answer": "I am honest with my clients: no professional can guarantee an exact number of leads because conversions are influenced by your product, pricing, sales team, and competitors. However, I guarantee that you will receive highly targeted traffic at the best possible price, without wasting your budget on bots or irrelevant searches."
+    },
+    "q2": {
+      "question": "What is the recommended advertising budget to start?",
+      "answer": "This heavily depends on your niche and region. On average, to properly test hypotheses and allow Google's algorithms to learn, a budget of $20-30 per day is needed. If the budget is too small, the campaigns simply won't gain traction."
+    },
+    "q3": {
+      "question": "How soon will I get my first clients?",
+      "answer": "With Search Ads, you can get your first clicks and potential leads within 24-48 hours after passing moderation. However, fully 'training' smart campaigns like Performance Max usually takes about 14-30 days."
+    },
+    "q4": {
+      "question": "Do you also configure analytics (GA4) or only the ads?",
+      "answer": "High-quality advertising is impossible without accurate analytics. I set up the entire ecosystem from scratch: Google Analytics 4, Google Tag Manager, and proper tracking of all macro and micro-conversions."
+    },
+    "q5": {
+      "question": "I tried running Google Ads myself and it didn't work. Why will it be different with you?",
+      "answer": "Google Ads is highly complex today. The 'default' settings are designed so you spend more money. I use negative keyword lists, strictly filter search terms, turn off underperforming networks, and write compelling ad copy based on your customers' actual pain points."
+    }
+  },
   "Contacts": {
     "section_title": "Contact Me",
     "title": "Ready to increase your sales?",
